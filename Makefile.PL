@@ -1,12 +1,12 @@
 use inc::Module::Install;
 
-name('NSS');
+name('Crypt-NSS-X509');
 license('mozilla');
 perl_version('5.10.1');
-all_from('NSS.pm');
+all_from('X509.pm');
 
-#homepage '';
-#bugtracker '';
+homepage 'https://github.com/amannb/perl-nss';
+bugtracker 'https://github.com/amannb/perl-nss/issues';
 
 requires_external_cc();
 
