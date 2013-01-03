@@ -38,9 +38,9 @@ all_from('X509.pm');
 requires 'autodie' => 2.10;
 requires 'MIME::Base64' => 3.13;
 requires 'Exporter' => 5.60;
-requires 'Alien::NSS' => 0.02;
+requires 'Alien::NSS' => 0.05;
 test_requires 'Test::More' => 0.98;
-configure_requires 'Alien::NSS' => 0.02;
+configure_requires 'Alien::NSS' => 0.05;
 
 homepage 'https://github.com/amannb/perl-nss';
 bugtracker 'https://github.com/amannb/perl-nss/issues';
